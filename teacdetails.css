@@ -1,0 +1,101 @@
+/* Resetting default margin and padding */
+body, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.details-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Logout button alignment */
+form[action="logout.php"] {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Edit and Delete button styles */
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+/* Edit Form container styles */
+#editFormContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+#editFormContainer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#editForm {
+    width: 100%;
+}
+
+#editForm div {
+    margin-bottom: 10px;
+}
+
+#editForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#editForm input[type="text"],
+#editForm input[type="email"],
+#editForm select {
+    width: calc(100% - 10px); /* Adjust for padding */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#editForm button {
+    background-color: #28a745;
+}
+
+#editForm button[type="button"] {
+    background-color: #dc3545;
+    margin-left: 10px;
+}
